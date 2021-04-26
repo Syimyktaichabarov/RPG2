@@ -19,11 +19,7 @@ public class Model {
 
         String formattedDouble = String.format("%.2f", answer);
 
-        String temp = "" + formattedDouble;
-
-
-
-        //String formattedDouble = new DecimalFormat("0.00").format(temp);
+        String temp = "" + formattedDouble;    
 
         viewer.update(temp);
     }
